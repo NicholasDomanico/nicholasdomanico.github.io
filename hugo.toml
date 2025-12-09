@@ -7,3 +7,14 @@ theme = 'hugo-theme-re-terminal'
   [caches.images]
     dir = ':cacheDir/images'
 
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 10
+
